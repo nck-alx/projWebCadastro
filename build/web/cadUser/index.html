@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Clientes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Cadastro de Clientes</h1>
+        <form action="user.jsp" method="post">>
+            <label>Nome completo:</label><input type="text" name="nome"><br>
+            <label>CPF:</label><input type="text" name="cpf" maxlength="14"><br>
+            <label>Email:</label><input type="email" name="email"><br>
+            <label>Celular:</label><input type="text" name="cel"><br>
+            <label>CEP:</label><input type="text" name="cep"><br>
+            <label>Tipo de moradia:</label><select name="tipoMoradia">
+                <option value="Apartamento">Apartamento</option>
+                <option value="Casa de Alvenaria">Casa de Alvenaria</option>
+            </select><br>
+            <br><br> 
+            <input type="submit" value="Salvar">
+            <input type="reset" value="Limpar">
+        </form>
+    </body>
+</html>
