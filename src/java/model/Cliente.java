@@ -1,7 +1,8 @@
 package model;
 public class Cliente {
     //atributos 
-    private String nome , email ,tipo_moradia, cpf, num_tel, cep ;
+    private String nome , email ,tipo_moradia, cpf, num_tel;
+    private int cep ;
     
     //metodos get e set
     public String getNome() {
@@ -44,11 +45,11 @@ public class Cliente {
         this.num_tel = num_tel;
     }
 
-    public String getCep() {
+    public int getCep() {
         return cep;
     }
 
-    public void setCep(String cep) {
+    public void setCep(int cep) {
         this.cep = cep;
     }
 }

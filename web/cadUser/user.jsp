@@ -18,7 +18,7 @@
             cliente.setCpf(request.getParameter("cpf"));
             cliente.setEmail(request.getParameter("email"));
             cliente.setTipo_moradia(request.getParameter("tipoMoradia"));
-            cliente.setCep(request.getParameter("cep"));
+            cliente.setCep(Integer.parseInt(request.getParameter("cep")));
             cliente.setNum_tel(request.getParameter("cel"));
             
             //Cadastro
