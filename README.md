@@ -5,10 +5,10 @@ Mini-projeto acadêmico que permite o cadastro de dados em um **servidor local**
 ---
 
 ## 🛠️ Ferramentas utilizadas
-- 📐 **Padrão MVC** (Model, View & Control)  
-- ☕ **Java** | **JSP (Java Server Pages)**  
-- 🌐 **Apache Tomcat** (servidor de aplicação local)  
-- 🗄️ **MySQL** (banco de dados relacional)  
+- **Padrão MVC** (Model, View & Control)  
+- **Java** | **JSP (Java Server Pages)**  
+- **Apache Tomcat** (servidor de aplicação local)  
+- **MySQL** (banco de dados relacional)  
 
 ---
 
